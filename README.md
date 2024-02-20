@@ -121,6 +121,7 @@ Check connection status on ProxySQL by:
 ```bash
 ProxySQLAdmin> SELECT hostgroup, srv_host, status, Queries FROM stats.stats_mysql_connection_pool;
 ```
+<img width="621" alt="conn_status" src="https://github.com/MdAhosanHabib/MySQL_ProxySQL/assets/43145662/669101b7-9bc1-45d4-8271-d350be5b1e74">
 
 ## Test ProxySQL
 ```bash
@@ -135,6 +136,7 @@ SELECT * FROM test1.test1;
 DELETE FROM test1.test1 WHERE id =8;
 COMMIT;
 ```
+<img width="960" alt="sqlYog" src="https://github.com/MdAhosanHabib/MySQL_ProxySQL/assets/43145662/91133491-7c29-4699-8508-0d1781f74757">
 
 ## Web portal enable ProxySQL
 To enable it it is enough to configure admin-web_enabled=true:
