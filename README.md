@@ -161,7 +161,7 @@ ProxySQLAdmin> SET admin-web_enabled='false';
 ProxySQLAdmin> LOAD ADMIN VARIABLES TO RUNTIME;
 ```
 
-Medium: 
+Medium: https://medium.com/@ahosanhabib.974/setting-up-proxysql-for-load-balancing-mysql-replication-1f00d16d82e8
 
 Thanks from:
 Ahosan Habib
